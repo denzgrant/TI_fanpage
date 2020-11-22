@@ -1,0 +1,110 @@
+
+    html { 
+        background:  url(https://data.whicdn.com/images/274492325/original.gif) no-repeat center center fixed; 
+        background-size: cover;
+      }    
+
+    #container {
+        background-color: whitesmoke;
+        width: 1000px;
+        height: 730px; 
+        margin-left: auto;
+        margin-right: auto;
+        opacity: .85;
+    }
+    h1, p {
+          text-align: center;
+          padding: 10px;
+        }
+    p {
+        color:#000000
+        font-size: 15px; 
+    }
+
+    h1 {
+        color: rgb(199, 15, 199);
+        font-size: 30px; 
+        font-family: Verdana, Geneva, sans-serif;
+    }
+    h4 {
+        text-align: center;
+        font-size: 17px;
+    }
+   td {
+       text-align: center;
+   }
+    #slowrush {
+        color: crimson;
+        font-size: 25px;
+    }
+    .responsive { 
+        margin-left: 450px;
+        border: 2px solid black;
+    }
+    #footer {
+        width: 900px; 
+        height: 750px;
+    } 
+    #nav {
+        position: relative; bottom: 358px; left: 100px;  
+        color: rgb(140, 21, 196);
+        border: 4px solid black;
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 250px;
+        height: 200px;
+    }
+
+/* Band Photo Fade in 
+   source: https://medium.com/cloud-native-the-gathering/how-to-use-css-to-fade-in-and-fade-out-html-text-and-pictures-f45c11364f08*/
+
+   .fade-in {
+    animation: fadeIn ease 20s;
+    -webkit-animation: fadeIn ease 20s;
+    -moz-animation: fadeIn ease 20s;
+    -o-animation: fadeIn ease 20s;
+    -ms-animation: fadeIn ease 20s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1; 
+    }
